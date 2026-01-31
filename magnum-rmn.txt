@@ -1,0 +1,178 @@
+﻿Project Alpha: A Comprehensive Analysis of Strategic Viability and Structural Barriers to the Launch of a Retail Media Network by Magnum Cash & Carry
+The global retail sector is currently navigating a fundamental paradigm shift where the traditional value proposition of physical product distribution is being superseded by the monetization of consumer attention and first-party data. This transition, epitomized by the rise of Retail Media Networks (RMNs), has transformed global entities such as Walmart and Carrefour into high-margin media publishers. In the Republic of Kazakhstan, Magnum Cash & Carry stands as the preeminent grocery retailer, possessing the physical footprint and the customer volume necessary to replicate this success. However, the anticipated transition toward a full-scale RMN, internally conceptualized as "Project Alpha," has not yet materialized. This report provides an exhaustive investigation into the internal technical architecture, the external competitive landscape dominated by fintech ecosystems, the organizational cultural inertia, and the regulatory constraints that collectively constitute the barriers to Magnum’s evolution from a traditional retailer to a modern media publisher.
+The Macroeconomic Imperative: Kazakhstan’s Digital Transformation Context
+To understand the delay in Magnum’s RMN trajectory, one must first analyze the broader technological environment in which it operates. Kazakhstan is currently undergoing an aggressive state-led digitalization phase, with President Kassym-Jomart Tokayev declaring 2026 as the "Year of Digitalization and Artificial Intelligence".1 The national strategy aims to transform the country into a regional digital power, a goal supported by the establishment of the Ministry of Artificial Intelligence and Digital Development and the launch of supercomputers like Alem.Cloud and Al Farabium.1
+This state-level momentum has created a consumer base that is exceptionally receptive to digital innovation. Over 80% of the population utilizes mobile internet, and the economy has become nearly cashless, with over 90% of transactions occurring digitally.3 For a retailer like Magnum, this environment should be the ideal breeding ground for an RMN. However, the rapid ascent of fintech giants has preemptively occupied the digital space that retailers in other markets typically claim for themselves. The "Project Alpha" viability must therefore be measured not against a void, but against a highly saturated and sophisticated digital ecosystem.
+Technical Maturity and Data Infrastructure: The Foundations of the Silo
+A functional Retail Media Network requires a sophisticated technical stack capable of real-time data ingestion, audience segmentation, and closed-loop attribution. The primary hypothesis regarding Magnum’s delay is that while a wealth of loyalty data exists, it remains functionally "siloed" or structurally unsuitable for programmatic advertising.
+Current Technical Architecture and Vendor Ecosystem
+Magnum’s historical focus has been on operational excellence and supply chain efficiency rather than media monetization. This is reflected in its choice of strategic partners. The company has integrated Symphony RetailAI and Consulting for Retail to manage its master data, supply chain, and category management.5 These AI-based solutions are designed for "Demand Forecasting," "Warehouse Replenishment," and "Assortment Planning".5 While these tools are robust for ensuring that milk and bread are on the shelves, they lack the "Ad-Serving" layer necessary for an RMN.
+Operational Component
+	Technical Solution / Partner
+	Strategic Focus
+	RMN Readiness
+	Data Management
+	Symphony RetailAI (Retail Data Management)
+	Consistency of product and inventory data
+	Low (Internal utility)
+	Inventory & Supply
+	Symphony RetailAI (Warehouse/Store Replenishment)
+	Optimization of stock levels and logistics
+	None (Back-office focus)
+	Category Management
+	Symphony RetailAI (Assortment/Clustering)
+	Shelf-space optimization and pricing
+	Low (Manual planning)
+	Invoicing & Admin
+	Documentolog (DMS Platform)
+	Automation of 500k annual invoices
+	None (Administrative)
+	E-commerce Frontend
+	Magnum Go (Integrated with Kaspi.kz)
+	Digital sales and customer interface
+	High (Owned by 3rd party)
+	The reliance on Symphony RetailAI indicates that Magnum is still prioritizing the "Retailer" half of its identity. The "Insights" module provided by SymphonyAI offers BI analytics based on in-memory technology, but this is typically used for category assessment and pricing optimization rather than serving as a Customer Data Platform (CDP) for external advertisers.5 For Project Alpha to be viable, Magnum would need to layer a media-specific technology—such as CitrusAd or Criteo—on top of this operational stack to allow suppliers to bid on search terms and banner placements in real-time.8
+The Customer Data Platform (CDP) Gap
+A second technical hurdle is the structural nature of Magnum’s loyalty data. The Magnum Club app, while successful in terms of adoption and visit frequency (reporting a 25% rise in visit frequency for businesses using such apps in Kazakhstan), is currently optimized for CRM and point-accumulation mechanics.4 There is little evidence of a real-time CDP that can segment users by granular purchase history—such as "parents who bought organic baby food three times in the last month"—and expose those segments to a programmatic bidding interface.
+In contrast, global RMN benchmarks like Walmart Connect utilize a unified ID system that links online behavior with offline POS data in seconds. Magnum’s current digitization efforts, while impressive—such as the processing of over 1,000 orders per day to suppliers—are still focused on reducing shadow transactions and improving administrative flow rather than building a "Shopper Graph".2 The implementation of Documentolog for managing the massive volume of invoices (over 500,000 per year) further highlights an organizational focus on operational hygiene over media-led revenue generation.10
+Competitive Landscape: The Kaspi.kz Structural Dominance
+The most significant external barrier to Project Alpha is Magnum’s intricate and potentially restrictive partnership with Kaspi.kz, Kazakhstan’s dominant payments and marketplace ecosystem.
+The e-Grocery Joint Venture and Data Sovereignty
+In a strategic move that fundamentally altered the Kazakh retail landscape, Kaspi.kz acquired a 90.01% stake in Magnum’s e-commerce operations (Magnum E-Commerce Kazakhstan).11 This partnership, involving a commitment of 70 billion tenge ($157 million) from Kaspi, has effectively placed the "digital aisle" of Magnum’s business under the control of a third-party fintech entity.11
+This creates a "Data Sovereignty" crisis for Magnum. While Magnum provides the physical stock and logistics through its dark stores, the customer interaction—the most valuable part of the RMN value chain—occurs within the Kaspi.kz Super App.13 Kaspi reports over 14 million monthly active users and a 62% daily engagement rate, making it the primary gateway for digital commerce in the country.12
+Ownership Attribute
+	Kaspi.kz (90.01% Stake)
+	Magnum (9.99% Stake)
+	Customer Interface
+	Kaspi.kz Super App
+	Physical Store Presence
+	Transaction Data
+	Owned and processed via Kaspi Pay
+	Restricted to POS/Offline
+	Ad Inventory
+	Banner and Search ads in-app
+	Physical screens and shelf-talkers
+	Media Revenue
+	Retained by Kaspi Advertising
+	Limited to Trade Marketing fees
+	This structural arrangement prevents Magnum from building its own end-to-end RMN for digital sales. Kaspi has already launched its own advertising services, allowing merchants to run campaigns not only within the Super App but also across third-party platforms like Meta and Google.15 Because Kaspi owns the customer ID (verified via biometrics) and the payment history, it possesses the "closed-loop" attribution that suppliers crave.12 For Magnum to launch an RMN that includes its digital sales, it would essentially be competing with its own 90% partner, a move that is likely prohibited by the terms of their joint venture.
+The AdTech Advantage of Fintech Ecosystems
+The sophistication of Kaspi’s advertising platform far exceeds what a traditional retailer can typically build in-house. Kaspi Advertising Services now includes AI-powered content creation, which automatically generates product descriptions and high-quality photos for over 500,000 products.15 This level of automation drives superior conversion for merchants, making it the preferred destination for supplier marketing budgets.15
+Magnum is thus trapped in what could be termed a "Golden Cage." The partnership provides the capital for dark store expansion and massive delivery volume (GMV up 53% in 3Q 2025), but it strips Magnum of the high-margin media revenue that defines modern retail.12 Project Alpha remains a "proto-RMN" because the most lucrative inventory—digital search and display—has been ceded to Kaspi.
+Organizational and Cultural Blockers: From Trade to Technology
+The transition to an RMN is not merely a technical upgrade; it is a cultural revolution. A retailer must stop thinking about "renting shelves" and start thinking about "selling audiences."
+The Traditional Trade Marketing Legacy
+Magnum’s marketing DNA is rooted in the "Trade Marketing" model, which in Kazakhstan remains a relationship-driven business. Traditionally, the sale of shelf space and the inclusion of products in PDF catalogs are negotiated as part of annual supply contracts. This "handshake" economy is antithetical to the programmatic, real-time, and data-transparent world of an RMN.
+Interviews with CEO Azamat Osmanov and other Kazakh leaders suggest that while there is optimism regarding AI—78% of CEOs believe technology will drive business capitalization—the day-to-day focus is on navigating a difficult economic environment.19 Magnum has recently had to comply with anti-monopoly agreements, reducing markups from 15% to 10% on socially significant food products like potatoes, carrots, and eggs.20 When a retailer is fighting for 10% gross margins on its core products, the risk-appetite for a capital-intensive, multi-year RMN build-out is significantly diminished.
+The Role of Digital Leadership
+The organizational chart of Magnum reveals a growing awareness of digitalization, yet the focus remains specialized. Roles such as "Digital Marketing Manager" and "Head of Data" exist, but their outputs are often localized to specific projects like the implementation of Documentolog or the management of the loyalty app.10 There is no evidence of a centralized "Retail Media" unit with the cross-functional authority to integrate POS data, app inventory, and supplier relations into a unified media product.
+Furthermore, the talent war in Kazakhstan is intense. The fintech sector, led by Kaspi and Halyk, absorbs the majority of programmatic advertising and data science talent.2 For Magnum to build an RMN, it would need to recruit a specialized team that understands "AdTech" (ad servers, DSPs, DMPs)—a skillset that is fundamentally different from traditional retail marketing or even standard e-commerce management.
+Proto-RMN Attempts: A Review of Pilots and Physical Media
+While a full-scale digital RMN is absent, Magnum has engaged in several "proto-RMN" experiments that indicate an awareness of the media opportunity. These attempts, however, highlight the gap between static advertising and a data-driven network.
+The Smart Scale Innovation
+One of the more creative attempts at internal media monetization involved the repurposing of digital scale screens. Marketing and Operations teams at Magnum identified that the screens on over 700 scales across Kazakhstan were an underutilized communication channel.23 These screens now display product ads, job openings, and promotions.23
+However, from an RMN perspective, these scales are "dumb assets." They are not connected to a programmatic backend that changes the ad based on the loyalty card scanned or the items already in the basket. Instead, they serve as a digital version of a static poster. While this creates a "new communication channel," it does not provide the real-time targeting or the performance analytics required to command premium rates from brands like Procter & Gamble or Unilever.23
+Digital Signage and In-Store LED Displays
+Magnum utilizes a wide range of LED technology provided by local vendors such as Digis, Ledvision.pro, and Bigscreen.24 These assets are common in the hypermarket format, particularly in Almaty and Astana. Yet, these displays are typically managed by the marketing team as a "broadcast" medium rather than a "targeted" one.
+
+
+Media Asset
+	Current Management
+	Programmatic Potential
+	Primary Constraint
+	Smart Scales
+	Internal Marketing / Video Loops
+	Medium
+	No real-time data integration 23
+	In-Store LED
+	External Vendors / Broadcasters
+	Low
+	Location-based only; no attribution 24
+	Telegram Bot
+	Internal Digital Team
+	High
+	Used primarily for alerts, not ads 4
+	Magnum Club App
+	Internal Loyalty Team
+	Very High
+	Lacks an external bidding API
+	The absence of an integrated sales portal for these assets is a critical missing piece. In a mature RMN, a supplier would log into a self-service portal (like Walmart Connect) and purchase "10,000 impressions on Almaty Scale Screens for Monday Morning".25 At Magnum, this process remains manual and bundled into broader trade marketing agreements.
+The Regional Strategy and the Uzbekistan Expansion
+Magnum’s strategic focus is currently split between domestic modernization and international expansion. In 2021, the company entered the Uzbekistan market, opening hypermarkets in Tashkent.26 The EBRD provided a loan of 20 billion tenge to support this modernization and expansion program.26
+This expansion is a double-edged sword for Project Alpha. On one hand, it drains the management bandwidth and capital that could be used to build a sophisticated AdTech stack. On the other hand, the Uzbekistan market presents a "Greenfield" opportunity. Unlike Kazakhstan, the Uzbek digital market is not yet dominated by a single fintech super-app. If Magnum can build an integrated digital-physical ecosystem in Uzbekistan from the ground up—retaining 100% ownership of the data and the customer interface—it could serve as the primary laboratory for a full-scale RMN.
+Economic and Regulatory Realities: Margin Pressure and Inflation
+The viability of "Project Alpha" must also be viewed through the lens of economic survival. Kazakhstan has experienced high inflation and a decrease in real purchasing power.19 For a grocery retailer, this results in a "flight to value," where approximately one-third of consumers switch from loyal brands to more affordable alternatives.27
+The Markup Constraint
+The Agency for Protection and Development of Competition in Kazakhstan has been highly active in regulating the retail sector. The anti-monopoly compliance agreements that Magnum has signed are not merely suggestions; they are legal constraints on the retailer's ability to generate margin.20 In such a high-pressure environment, the primary focus of the leadership team is on maintaining the supply of "socially important" goods and optimizing pricing via Symphony RetailAI to stay competitive with smaller retailers and the "shadow" market.5
+The High Cost of Capital
+Building an RMN requires significant upfront investment in software, data engineering, and a specialized sales force. While the EBRD supports physical expansion, capital for high-risk AdTech ventures is harder to secure in a market where logistics and materials costs are rising.19 The focus remains on "Kitchen Management," "Warehouse Replenishment," and "Invoice Reconciliation"—investments that provide immediate, tangible improvements to the bottom line—rather than the speculative, high-margin promise of a media network.5
+Comparative Analysis: Magnum vs. Global RMN Benchmarks
+To quantify the gap that Project Alpha must bridge, a comparison with established RMNs reveals the missing technical and strategic layers.
+RMN Feature
+	Walmart Connect / Carrefour Links
+	Magnum Cash & Carry (Current)
+	Self-Service Portal
+	Advanced; supplier-led bidding
+	None; manual negotiation
+	Off-site Targeting
+	Uses 1st party data to buy ads on Google/FB
+	None (Handled by Kaspi.kz)
+	In-Store Attribution
+	Scanned loyalty links to digital ad exposure
+	Basic; manual correlation of promos
+	AI Content Engine
+	Integrated for dynamic creative
+	None (Handled by Kaspi for digital)
+	Revenue Model
+	Media margin (60-80%)
+	Trade Marketing margin (Low/Bundled)
+	The comparison underscores that Magnum is currently functioning as the "Supply Chain" for Kaspi’s RMN, rather than being an RMN operator itself. While entities like Carrefour have successfully integrated their transactional data to drive omnichannel success—reporting a 58% increase in click-through rates for CPG brands—Magnum is still in the process of digitizing its core administrative functions.10
+The Role of Global AdTech Vendors in Central Asia
+The entry of global RMN tech vendors like CitrusAd and Criteo into the Central Asian market is a prerequisite for Project Alpha’s technical viability. Currently, these platforms are primarily focused on US and European markets, with only partial coverage of APAC and LATAM.8 Criteo, the world’s second-largest API program, connects retailers directly to demand from 17,000 brands.29
+However, these platforms require a certain level of "Data Readiness" from the retailer. They need high-quality, real-time API connections to the product catalog, inventory levels, and customer loyalty profiles.9 Magnum's current focus on "Master Data" management via SymphonyAI is the correct first step, but it is not yet "Ad-Ready".5 Until a vendor like CitrusAd or Criteo establishes a localized presence—or until a regional player like Kaspi decides to offer its AdTech as a "White Label" solution to other retailers—Magnum will struggle to build a programmatic network from scratch.
+Insights into Leadership and Strategy
+Analysis of the leadership trajectory at Magnum reveals a company in the midst of a massive transformation, but one that is inherently "retail-first." Azamat Osmanov, as General Director, has steered the company through the challenges of the COVID-19 pandemic and the expansion into Uzbekistan.26 The focus has been on "Ecosystem Synergy" in a broad sense—partnering with Glovo for fast delivery and Kaspi for payments—rather than building an isolated, Magnum-owned digital empire.13
+The leadership appears to have made a conscious "Build vs. Buy vs. Partner" decision. By partnering with Kaspi, they "bought" immediate digital scale and a world-class delivery infrastructure.11 The trade-off was the loss of the media network opportunity. This was likely a rational decision in 2021-2022 when the priority was surviving the digital disruption, but as the RMN market matures globally, it may be viewed as a missed high-margin opportunity.
+Conclusions: The Future Viability of Project Alpha
+The investigation into Magnum Cash & Carry’s RMN journey concludes that "Project Alpha" is currently stalled by a combination of technical silos, structural disintermediation by Kaspi.kz, and a traditional organizational focus on operational efficiency.
+Key Findings on Barriers
+The technical infrastructure is optimized for supply chain management, not media delivery. The existing partnership with Symphony RetailAI provides deep category insights but lacks the ad-serving and bidding layers found in mature RMNs. The 90.01% stake that Kaspi.kz holds in Magnum’s e-commerce arm is the single largest strategic barrier, as it centralizes digital customer data and media inventory within the Kaspi ecosystem, leaving Magnum with only physical media assets.
+The organizational culture remains focused on traditional trade marketing and relationship management. The pressure to maintain low margins on socially significant products further restricts the capital available for speculative AdTech investments. Finally, the absence of localized global RMN vendors like CitrusAd or Criteo means Magnum would have to build a complex programmatic platform from the ground up, a task for which the current talent pool is insufficient.
+Strategic Recommendations for Realizing Project Alpha
+For Magnum to transition from a traditional retailer to a media publisher, it must pursue a hybrid "Phygital" RMN strategy.
+* Offline Data Monetization: Magnum should bypass the "Kaspi digital trap" by focusing on its 100% owned offline assets. This involves transforming smart scales and digital screens into a unified, programmatic "In-Store Network" that uses Magnum Club loyalty data to trigger ads at the point of purchase.
+* Data Integration Layer: The company must move beyond category management and implement a Customer Data Platform (CDP) that can bridge the gap between Symphony RetailAI’s supply chain data and the marketing team’s communication channels.
+* Negotiating Data Sovereignty: Magnum must attempt to renegotiate its data-sharing agreement with Kaspi to ensure that SKU-level purchase data can be used by Magnum to build its own offline RMN, even if the digital sales remain on the Kaspi app.
+* Uzbekistan as a Laboratory: The expansion into Uzbekistan should be used as a testbed for a vertically integrated digital-physical ecosystem where Magnum retains 100% ownership of the ad stack.
+While the "Walmart Connect" model may be out of reach due to the Kaspi partnership, a specialized "Central Asian Offline RMN" is highly viable. The population is digitally ready, the loyalty data is abundant, and the supplier demand for measurable in-store advertising is high. The transition will require a shift from viewing technology as an operational cost to viewing data as a high-margin product. Without this shift, Magnum remains at risk of becoming a "dumb utility" in a market where fintech ecosystems capture the lion's share of the digital value chain.
+Works cited
+1. Our people are mentally ready for such innovations: Tokayev on digitalization and artificial intelligence - Qazinform, accessed January 31, 2026, https://qazinform.com/news/our-people-are-mentally-ready-for-such-innovations-tokayev-on-digitalization-and-artificial-intelligence-9b225b
+2. Kazakhstan Accelerates Digital Transformation with AI, Blockchain, and Global Tech Ambitions - The Astana Times, accessed January 31, 2026, https://astanatimes.com/2025/09/kazakhstan-accelerates-digital-transformation-with-ai-blockchain-and-global-tech-ambitions/
+3. How Kazakhstan positions AI and digital governance as the next engine of growth, accessed January 31, 2026, https://gulfnews.com/world/how-kazakhstan-positions-ai-and-digital-governance-as-the-next-engine-of-growth-1.500416940
+4. Technologies for Retail in Kazakhstan: How Mobile Applications Transform Supermarkets and Prevent Losses, accessed January 31, 2026, https://blog.sailet.kz/en/transformation_of_supermarkets/
+5. Magnum Cash & Carry implements a comprehensive system for supply chain and category management - Consulting for Retail, accessed January 31, 2026, https://www.c4r.eu/news/news_magnum_project/
+6. SymphonyAI Announces 2020 Growth and Momentum, With SaaS Revenue Up 65% YOY, accessed January 31, 2026, https://www.symphonyai.com/resources/blog/retail-cpg/symphony-retailai-announces-2020-growth-and-momentum-with-saas-revenue-up-65-yoy/
+7. Symphony RetailAI Announces 2020 Growth and Momentum, With SaaS Revenue Up 65% YOY - GlobeNewswire, accessed January 31, 2026, https://www.globenewswire.com/news-release/2021/03/09/2189650/0/en/Symphony-RetailAI-Announces-2020-Growth-and-Momentum-With-SaaS-Revenue-Up-65-YOY.html
+8. CitrusAd (Epsilon Retail Media) Networks List (2025) - mimbi.io, accessed January 31, 2026, https://www.mimbi.io/retail-media-networks-list/citrusad-retail-media-networks
+9. Retail Media for Retailers - CitrusAd - Sponsored Product Ads, accessed January 31, 2026, https://citrusad.com/retail-media-for-retailers
+10. Implementation of Documentolog DMS at Magnum Cash & Carry, accessed January 31, 2026, https://documentolog.com/en/blog/vnedrenie-sed-documentolog-v-tk-magnum-cash--carry
+11. Kaspi.kz to invest US$157 mln in e-Grocery - BM.GE, accessed January 31, 2026, https://bm.ge/en/news/kaspikz-to-invest-us157-mln-in-e-grocery/128032
+12. Kaspi.kz Responds to Investor Questions, accessed January 31, 2026, https://s24.q4cdn.com/538403808/files/doc_news/Kaspi.kz-Responds-to-Investor-Questions-2024.pdf
+13. Kaspi.kz to Announce Second Quarter & First Half 2023 Financial Results on 24 July, accessed January 31, 2026, https://ir.kaspi.kz/media/1H2023_call_invitation.pdf
+14. Kaspi.kz 4th Quarter & Full-Year 2021 Financial Results, accessed January 31, 2026, https://ir.kaspi.kz/media/4Q%20&%20FY%202021%20Results.pdf
+15. Kaspi.kz 3Q & 9M 2025 Financial Results - Kaspi.kz - Investor ..., accessed January 31, 2026, https://ir.kaspi.kz/media/3Q_2025_Results_.pdf
+16. 3Q 2025 Results - Kaspi.kz - Investor Relations, accessed January 31, 2026, https://ir.kaspi.kz/media/3Q_2025_Presentation.pdf
+17. Corporate Information - SEC.gov, accessed January 31, 2026, https://www.sec.gov/Archives/edgar/data/1985487/000095017024049512/R8.htm
+18. What is Sales and Marketing Strategy of Kaspi.kz JSC Company? - Porter's Five Forces, accessed January 31, 2026, https://portersfiveforce.com/blogs/marketing-strategy/kaspi
+19. Catch the wave or… - Kazakhstan edition of 27th Annual Global CEO Survey 2024 - PwC, accessed January 31, 2026, https://www.pwc.com/kz/en/publications/ceo-assets/ceo-survey-27-2024-eng.pdf
+20. OECD Peer Reviews of Competition Law and Policy: Kazakhstan 2025, accessed January 31, 2026, https://www.oecd.org/en/publications/2025/11/oecd-peer-reviews-of-competition-law-and-policy-kazakhstan-2025_1e7f54fe/full-report/competition-advocacy_8c7c34e6.html
+21. ŞUBA T / FEBRU AR Y - Emitt, accessed January 31, 2026, https://emittistanbul.com/mediafile/3459/492/EMITT_2025_KATALOG_WEB_LOW.pdf
+22. Joint Stock Company Kaspi.kz (KSPI): Marketing Mix Analysis - DCFmodeling.com, accessed January 31, 2026, https://dcfmodeling.com/products/kspi-marketing-mix
+23. Projects — Magnum HR, accessed January 31, 2026, https://hr.magnum.kz/en/projects/
+24. Best Led Display Supplier in Kazakhstan - Complete list - NSELED, accessed January 31, 2026, https://nseledcloud.com/led-display-in-kazakhstan/
+25. How Do Retail Media Networks Work? - TechRepublic, accessed January 31, 2026, https://www.techrepublic.com/article/how-retail-media-networks-work/
+26. Where is Magnum Cash&Carry Located? HQ, Global Offices & Company Insights, accessed January 31, 2026, https://www.highperformr.ai/company/magnumkz
+27. Why the recent drop in wheat prices may not reflect the longer-term trend | Food Dive, accessed January 31, 2026, https://www.fooddive.com/news/why-the-recent-drop-in-wheat-prices-may-not-reflect-the-longer-term-trend/626253/
+28. Retail Media | Criteo, accessed January 31, 2026, https://www.criteo.com/solutions/retail-media/
+29. Criteo: The Commerce Media Platform for the Open Internet, accessed January 31, 2026, https://www.criteo.com/
+30. Glovo launched delivery from Magnum Cash & Carry in Kazakhstan based on Corezoid, accessed January 31, 2026, https://corezoid.com/blog/corezoid-glovo-magnum/

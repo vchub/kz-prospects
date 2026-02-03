@@ -1,8 +1,24 @@
-create a deep search prompt to find out why this project hasn't been │
-│ created already. │
-│ were there attempts to do it? │
-│ hurdles? │
-│ viability?
+create explanation how these platforms operate, both from influencer and platform point of view.
+include links and details.
+
+write as report in Russian
+
+analyze
+
+@influence-viability-report.md
+@influence-viability2.md
+
+find links to implementation of influencer platform in russia and usa
+use web search to check assumptions
+
+act as software engineer and marketing expert team
+create a detailed implementation plan including
+
+- softwaer architecture
+- access to 3d party api
+- marketing pros and cons
+
+write it in rmn/ dir
 
 project:
 

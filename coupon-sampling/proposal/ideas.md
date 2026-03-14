@@ -1,3 +1,12 @@
+Add pure refund option instead of sampling:
+
+- user buys product
+- scans and upload receipt in telegram bot
+- we send receipt #, to retail partner to confirm it's valid
+- if valid refund user (how? kaspi?)
+
+---
+
 Jenya (edit) mentioned that there is problem of sampling theft.
 Solution idea.
 

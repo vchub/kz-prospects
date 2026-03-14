@@ -1,4 +1,4 @@
-Jenya mentioned that there is problem of sampling theft.
+Jenya (edit) mentioned that there is problem of sampling theft.
 Solution idea.
 
 On mobile station there is telegram/qr code/link to download promo qr code.
